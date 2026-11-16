@@ -15,7 +15,7 @@
 
 ## 打 Release
 
-1. 在本仓打 tag：`v x.y.z`（例如 `v0.3.0`），推送 tag。
+1. 在本仓打 tag：`vX.Y.Z`（例如 `v0.3.0`），推送 tag。
 2. 在 GitHub 上基于该 tag 新建 Release，标题写成 `DaLiTools x.y.z`，正文从 `CHANGELOG.md` 对应小节粘贴。
 3. 上传附件，**三件套必须齐全**，少一样「检查更新」就会失败：
    - `DaLiTools_x.y.z_x64-setup.exe`（安装包）
