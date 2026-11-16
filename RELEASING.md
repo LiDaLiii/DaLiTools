@@ -8,7 +8,8 @@
    - `src-tauri/Cargo.toml` 的 `version`
    - `src-tauri/tauri.conf.json` 的 `version`
 2. 编译 release 包（`build.bat release`），得到 `DaLi.exe` + `WebView2Loader.dll`。
-3. 打包安装版：`DaLiTools_x.y.z_x64-setup.exe`；便携版：把 exe 和 WebView2Loader.dll 压成 `DaLiTools_x.y.z_x64-portable.zip`。
+3. 打包安装版：`DaLiTools_x.y.z_x64-setup.exe`（必须），以及它的 `.sig` 签名文件。
+   便携版（`DaLiTools_x.y.z_x64-portable.zip`）是可选的，**不参与自动更新**：它是解压即用的绿色包，升级方式就是重新下载解压，程序里的「检查更新」不会替换它。
 4. 在本仓 `CHANGELOG.md` 顶部加这一版的用户可见变化（只写用户能感觉到什么，不写实现）。
 5. 若本轮有公开内容变化（README、许可、文档），一并提交到本仓 `main`。
 
@@ -16,7 +17,11 @@
 
 1. 在本仓打 tag：`v x.y.z`（例如 `v0.3.0`），推送 tag。
 2. 在 GitHub 上基于该 tag 新建 Release，标题写成 `DaLiTools x.y.z`，正文从 `CHANGELOG.md` 对应小节粘贴。
-3. 上传附件：安装包、便携包，以及 `latest.json`。
+3. 上传附件，**三件套必须齐全**，少一样「检查更新」就会失败：
+   - `DaLiTools_x.y.z_x64-setup.exe`（安装包）
+   - `DaLiTools_x.y.z_x64-setup.exe.sig`（它的签名）
+   - `latest.json`（更新清单，下面的 `url` 指向本次安装包）
+   便携包 zip 只是可选附件；只传 zip、不传上面三样，等于这次更新发不出去。
 
 ## latest.json（自动更新清单）
 
