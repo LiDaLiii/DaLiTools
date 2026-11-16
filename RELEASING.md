@@ -35,7 +35,7 @@
   "platforms": {
     "windows-x86_64": {
       "signature": "<安装包签名串>",
-      "url": "https://github.com/LiMengranran/DaLiTools/releases/download/v0.3.0/DaLiTools_0.3.0_x64-setup.exe"
+      "url": "https://github.com/LiDaLiii/DaLiTools/releases/download/v0.3.0/DaLiTools_0.3.0_x64-setup.exe"
     }
   }
 }
@@ -47,6 +47,6 @@
 
 ## 发布后
 
-- 确认 `https://github.com/LiMengranran/DaLiTools/releases/latest/download/latest.json` 能打开。
+- 确认 `https://github.com/LiDaLiii/DaLiTools/releases/latest/download/latest.json` 能打开。
 - 源码仓的更新地址指向这个地址；地址一改，旧版本用户就顺着新地址更新。
 - 首次发版验证：装上一版，打开程序等它检查更新，能看到新版本号、能下载安装、装完版本号变了。
