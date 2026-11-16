@@ -20,7 +20,7 @@
 
 ## 下载
 
-去 [Releases](https://github.com/LiMengranran/DaLiTools/releases) 下最新版。
+去 [Releases](https://github.com/LiDaLiii/DaLiTools/releases) 下最新版。
 
 - `DaLiTools_x.y.z_x64-setup.exe`：安装版，装完直接双击用。
 - 压缩包版：解压到任意文件夹，双击 `DaLi.exe`。
@@ -43,9 +43,9 @@
 
 ## 反馈
 
-- 遇到问题、想加功能：开一个 [Issue](https://github.com/LiMengranran/DaLiTools/issues)
+- 遇到问题、想加功能：开一个 [Issue](https://github.com/LiDaLiii/DaLiTools/issues)
 - 发版记录见 [CHANGELOG.md](CHANGELOG.md)
 
 ## License
 
-[MIT](LICENSE) © 2026 LiMengranran
+[MIT](LICENSE) © 2026 LiDaLiii
