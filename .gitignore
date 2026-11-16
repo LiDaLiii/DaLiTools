@@ -1,0 +1,18 @@
+# 构建与本地产物
+/dist/
+/build/
+/target/
+
+# 安装包、签名、更新清单（走 Release，不进库）
+*.exe
+*.msi
+*.msix
+*.zip
+*.sig
+latest.json
+
+# 日志与系统杂项
+*.log
+Thumbs.db
+desktop.ini
+.DS_Store
